@@ -76,7 +76,7 @@ Coming Soon
 * Player will get the facility to choose from a range of fancy icons
 
 
-***Now, go back and click on the link and do the following:***
+***Now, scroll up and click on the link and do the following:***
 
 ```
 const enjoyGame = function () {
