@@ -67,7 +67,7 @@ Major Features:
 
 Acknowledgement
 -------------------------------------------
-- My *husband* who gave me with hints to make me figure out the game logic
+- My *husband* who gave me hints to help me figure out the game logic
 - ***Special thanks*** to *Yianni* & *Joel* for helping out with instant solutions every time I was stuck with a problem
 
 Coming Soon
