@@ -51,8 +51,7 @@ I have used the **Javascript** programming language to build game logic and with
 
 ##### The following are the primary functions that have been created and called in order to run the game:
 
--
-`chooseLevel()`
+- `chooseLevel()`
  - Player can choose the *Game Level* and the *Type of Rounds* the player is in
 
 - `playGame()`
