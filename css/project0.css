@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+body {
+  background-image: url(../images/tic-tac-toe-game-696x620.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  animation: colorchange 30s infinite;
+}
+
+@keyframes colorchange {
+  0% {background: url(../images/tic-tac-toe-game-696x620.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  100% { background: url(../images/2690810-tic-tac-toe-game-on-dark-slate-background-blue-red-joy-photocase-stock-photo-large.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;  }
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 550px;
+  height:950px;
+  text-align: center;
+  background-color: #B9D3ED;
+  border: 20px solid grey;
+  border-style: ridge;
+  border-radius: 20%;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+  font-size: 50px;
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #bd5d4a;
+  /* DEMO-SPECIFIC STYLES */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+  typing 5s infinite steps(30, end),
+  blink-caret 2s step-end infinite;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent }
+}
+
+#camera {
+  width: 60px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#dots {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  border: 6px solid #3C3C3D;
+  border-style: inset;
+  border-radius: 35%;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: 1s all;
+  font-size: 30px;
+}
+p:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  cursor: pointer;
+}
+
+.blinking{
+    animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+    40%{    color: transparent; }
+    80%{    color: transparent; }
+}
+
+table {
+  margin: 0 auto;
+}
+
+#board {
+visibility: hidden;
+}
+
+td {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #bd5d4a;
+  border-style: groove;
+}
+
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
+}
+
+.box img {
+  width: 150px;
+}
+
+.box:hover {
+  cursor: pointer;
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+}
+
+table #hard-board {
+ margin: 0 auto;
+}
+
+td.box-hard  {
+  width: 120px;
+  height: 120px;
+  border: 5px solid #bd5d4a;
+  border-style: groove;
+}
+
+td.box-hard:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+td.box-hard:nth-of-type(2) {
+  border-top-color: transparent;
+}
+
+td.box-hard:nth-of-type(3) {
+  border-top-color: transparent;
+}
+
+td.box-hard:nth-of-type(4) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+tr:nth-of-type(3) td.box-hard {
+  border-bottom-color: #bd5d4a;
+}
+
+tr:nth-of-type(4) td.box-hard {
+  border-bottom-color: transparent;
+}
+
+.box-hard:hover {
+  cursor: pointer;
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+}
+
+.box-hard img {
+  width: 80px;
+}
+
+img.icon {
+  width: 60px;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: 2px;
+  border: 6px solid #3C3C3D;
+  border-style: outset;
+  border-radius: 100%;
+  background-color: #bd5d4a;
+  color: #B9D3ED;
+  transition: 1s all;
+
+}
+
+button:hover {
+  background-color: black;
+  color: #bd5d4a;
+  border-color: #bd5d4a;
+  transition: 1s all;
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.message {
+  margin: 0 auto;
+  padding: 10px 10px 20px 10px;
+  font-size: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: 2px;
+}
