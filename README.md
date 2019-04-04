@@ -51,18 +51,17 @@ I have used the **Javascript** programming language to build game logic and with
 
 ##### The following are the primary functions that have been created and called in order to run the game:
 
-- `chooseLevel()`
- - Player can choose the *Game Level* and the *Type of Rounds* the player is in
+`chooseLevel()`
+- Player can choose the *Game Level* and the *Type of Rounds* the player is in
 
-- `playGame()`
- - Gets executed when **3x3** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
+`playGame()`
+- Gets executed when **3x3** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
 
-- `playGameHard()`
+`playGameHard()`
+- Gets executed when **4x4** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
 
- - Gets executed when **4x4** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
-
-- `resetGame()`
- - Player can hit the reset button to start a *New Game*
+`resetGame()`
+- Player can hit the reset button to start a *New Game*
 
 ### Acknowledgement
 ***Special thanks*** to *Yianni* & *Joel* for helping out with instant solutions every time I was stuck with a problem
