@@ -52,7 +52,7 @@ I have used the **Javascript** programming language to build game logic and with
 ##### The following are the primary functions that have been created and called in order to run the game:
 
 `chooseLevel()`
-- Player can choose the *Game Level* and the *Type of Rounds* the player is in
+- Player can choose the *Game Level* and the *Type of Rounds* the player is interested in
 
 `playGame()`
 - Gets executed when **3x3** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
