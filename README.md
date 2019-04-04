@@ -8,7 +8,7 @@ Tic Tac Toe is a simple yet fun game to be played between two players.
 
 This game is the modern day ***Tic Tac Toe***. It has got *fancy* icons to juggle with.
 
-[Play the traditional Paper Pencil Game in an absolutely attractive new way!](http://w3c.org/)
+[Play the traditional Paper Pencil Game in an absolutely attractive new way!](https://rashidabengali.github.io/tic-tac-toe/)
 
 ## Game Format
 
@@ -30,30 +30,46 @@ Each of the Levels have two ***Types*** of *Game Rounds*:
 
 On **Single Round** selection, one round of game can be played between the two players and the Results will be displayed right after the game is over.
 
-![Single Selection](images/Screen Shot 2019-04-04 at 5.16.42 pm.png)
+![Single Selection](images/single.png)
 
 On **Tournament** selection, the players will be asked through a ***PROMPT Message*** how many rounds would they like to play with each other.
 
-![prompt](images/Screen Shot 2019-04-04 at 5.12.14 pm.png)
+![prompt](images/prompt.png)
 
 Accordingly, a tabular format of score will be displayed throughout the tournament for the players to track their scores.
 
-![score](images/Screen Shot 2019-04-04 at 5.12.55 pm.png)
+![score](images/tournament.png)
 
 Once all the rounds are played the *Tournament Winner* will be disclosed
 
-![message](images/Screen Shot 2019-04-04 at 5.20.47 pm.png)
+![message](images/results.png)
 
 I gave my Game's **HTML** page some basic CSS styling with a couple of creative animations and hover effects.
 
 I have used the Javascript programming language to build game logic and with jQuery manipulated the DOM to display scores, results and much more.
 
+##### The following are the primary functions that have been created and called in order to run the game:
 
-## code: backtick city
-Refer to a variable like `counter` in special font.
+`chooseLevel()`
+ - Player can choose the *Game Level* and the *Type of Rounds* the player is in
+
+ `playGame()`
+ - Gets executed when **3x3** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
+
+ `playGameHard()`
+
+ - Gets executed when **4x4** board boxes are clicked for either *Single Round* or *Tournament* and the results are rendered on the screen
+
+ `resetGame()`
+ - Player can hit the reset button to start a *New Game*
+
+
+*Now, go back and click on the link and do the following:*
 
 ```
-const hello = function () {
-  console.log('hello');
+const enjoyGame = function () {
+  console.log('Have Fun!');
 };
+
+enjoyGame();
 ```
