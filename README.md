@@ -49,7 +49,7 @@ I gave my Game's **HTML** page some basic **CSS** styling with a couple of creat
 
 I have used the **Javascript** programming language to build game logic and with **jQuery** manipulated the DOM to display scores, results and much more.
 
-##### The following are the primary functions that have been created and called in order to run the game:
+### Major Features:
 
 `chooseLevel()`
 - Player can choose the *Game Level* and the *Type of Rounds* the player is interested in
@@ -64,9 +64,10 @@ I have used the **Javascript** programming language to build game logic and with
 - Player can hit the reset button to start a *New Game*
 
 ### Acknowledgement
-***Special thanks*** to *Yianni* & *Joel* for helping out with instant solutions every time I was stuck with a problem
+- My *husband* who gave me with hints to make me figure out the game logic
+- ***Special thanks*** to *Yianni* & *Joel* for helping out with instant solutions every time I was stuck with a problem
 
-### Future Features ###
+### Coming Soon ###
 * Player will be able to choose if he wants to play with the computer or with a friend online
 * Player will get the facility to choose from a range of fancy icons
 
